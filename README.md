@@ -1,135 +1,114 @@
-# Ultimate-Universal-Video-Downloader-PRO-2.2
-Ultimate Universal Video Downloader PRO+ 2.2
-Description
+🎬 Ultimate Universal Video Downloader PRO+ 2.2
 
-Ultimate Universal Video Downloader PRO+ 2.2 is a Python-based multi-platform video downloader with a professional GUI.
-It supports YouTube, Instagram, and Facebook, including public and private content (with login or cookies).
+A Python-based, multi-platform video downloader with a professional GUI.
+Supports YouTube, Instagram, and Facebook, including public and private content (login or cookies required).
 
-Features include:
+✨ Features
 
-Drag-and-drop style URL queue
+📥 Drag-and-Drop URL Queue — Add multiple video URLs easily
 
-Individual progress bars per video
+⏱️ Individual Progress Bars — Track downloads per video
 
-Pause, Resume, and Cancel functionality per video
+⏸️ Pause, Resume & Cancel — Control downloads individually
 
-Thumbnail preview and automatic saving
+🖼️ Thumbnail Preview — Automatically displayed on download start
 
-Metadata display (title, author, duration, likes/comments when available)
+📝 Metadata Display — Shows title, author, duration, likes/comments when available
 
-Organized folders with date-time prefixed filenames
+🗂️ Organized Folders — Separate folders per platform with date-time prefixed filenames
 
-Concurrent downloads
+⚡ Concurrent Downloads — Efficiently download multiple videos simultaneously
 
-This tool is ideal for batch downloading videos efficiently with a professional, GUI-driven workflow.
+🧩 Requirements
 
-Requirements
-
-Python 3.8+ is recommended.
+Python 3.8+ recommended
 
 Install required packages:
 
 pip install pytube instaloader requests Pillow
 
-Folder Structure
+📂 Folder Structure
 downloads/
 ├── YouTube/
 ├── Instagram/
 ├── Facebook/
 
 
-Videos are automatically saved into platform-specific folders.
+Videos saved into platform-specific folders
 
-Filenames are prefixed with the current date and time to avoid overwriting.
+Filenames prefixed with date-time to avoid overwriting
 
-Thumbnails are automatically saved in the same folder.
+Thumbnails saved automatically in the same folder
 
-Usage
-
-Launch the application:
-
+⚙️ Usage
+Launch the Application
 python video_downloader_PRO_plus_2_2.py
 
+Add URLs
 
-Add URLs:
+Paste video URL into input box
 
-Paste a video URL into the input box.
+Click Add to Queue
 
-Click “Add to Queue”.
+Repeat for multiple URLs
 
-Repeat for multiple URLs.
+Configure Credentials (Optional)
 
-Configure optional credentials:
+Instagram: Username/password for private videos
 
-Instagram: Enter username/password for private videos.
+Facebook: Cookies for private videos
 
-Facebook: Enter cookies for private videos.
+Start Downloads
 
-Start Downloads:
+Click Start All Downloads
 
-Click “Start All Downloads” to begin downloading all queued videos.
+Each video has its own progress bar and status
 
-Control Individual Downloads:
+Pause, Resume, Cancel per video
 
-Each video has its own progress bar and status.
+Thumbnail Preview
 
-Pause, Resume, and Cancel downloads by selecting the video in the queue (future upgrade can add buttons per video).
+Automatically displays when download starts
 
-Thumbnail Preview:
+📝 Notes
 
-When a video starts downloading, its thumbnail is displayed automatically.
+Instagram private videos require login credentials
 
-Features
-Feature	Details
-Platform Support	YouTube, Instagram, Facebook
-Queue	Drag-and-drop style URL queue
-Concurrent Downloads	Up to multiple downloads simultaneously
-Pause/Resume/Cancel	Supported per video
-Thumbnail Preview	Displayed when download starts
-Metadata	Title, author, duration, views, likes/comments (where available)
-Folder Organization	Separate folders per platform, date-time prefixed filenames
-Notes
+Facebook private videos require cookies
 
-Instagram private videos require login credentials.
+YouTube videos download at highest resolution by default
 
-Facebook private videos require cookies.
+Downloads are threaded, allowing concurrent processing
 
-YouTube videos download at the highest resolution by default.
+Progress bars update in real-time
 
-Downloads are threaded, allowing multiple videos to be processed concurrently.
+🔮 Future Improvements
 
-Progress bars update in real-time for each video.
+Right-click context menu for individual video control
 
-Future Improvements
+Real-time metadata display (views, likes, comments) in queue
 
-Right-click context menu for individual video control in the queue
+Drag-and-drop URLs directly from browser
 
-Real-time display of metadata (views, likes, comments) in the queue
-
-Drag-and-drop multiple URLs from browser directly into the app
-
-System tray integration with notifications for completed downloads
+System tray integration with notifications
 
 Commercial-grade GUI polish with separate panels for queue, info, and controls
 
-Troubleshooting
+⚠️ Troubleshooting
 
-Download fails:
+Download fails: Check URL, credentials/cookies, and internet connection
 
-Ensure URL is correct.
+Python errors: Ensure packages installed and Python 3.8+ used
 
-For private content, ensure credentials/cookies are correct.
+Video not playing: Use supported media players (MP4 recommended)
 
-Check internet connection.
+🏷️ Tags
 
-Python errors:
+#python #gui #video-downloader #youtube #instagram #facebook #pytube #instaloader #desktopapp
 
-Ensure required packages are installed (pytube, instaloader, requests, Pillow).
+🧑‍💻 Author
 
-Run using Python 3.8 or higher.
+Deepjyoti Das
+🔗 https://www.linkedin.com/in/deepjyotidas1
 
-Video not playing after download:
-
-Check if video format is supported by your media player. MP4 is recommended.
-
-This README ensures anyone using the PRO+ 2.2 version can set it up, run it, and understand its features.
+💻 GitHub
